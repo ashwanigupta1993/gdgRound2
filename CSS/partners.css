@@ -1,0 +1,26 @@
+.partners{
+    background-color: #f1f2f5;
+}
+.partners h3{
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.partners .row{
+    text-align: center; 
+    
+}
+.partners .row img{
+    margin: 40px 0px;
+}
+
+.carousel-indicators li{
+    border-color: #979eb1;
+    background: #979eb1;
+}
+.carousel-indicators li.active{
+    background: #5fc0c3;
+    border-color:#5fc0c3;
+}

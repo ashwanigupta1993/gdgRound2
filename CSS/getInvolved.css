@@ -1,0 +1,67 @@
+.getInvolvedContainer{
+    padding: 0px;
+}
+.getInvolvedContainer h3{
+    text-align: center;
+    margin: 38px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    
+}
+.getInvolvedContainer .row{
+    margin: 0px 130px;
+}
+.getInvolvedContainer .group{
+    text-align: center;
+}
+.getInvolvedContainer .row img{
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    margin: 20px 0px;
+}
+.getInvolvedContainer .row .tiltedImage{
+    width: 180px;
+    height: 120px;
+    display: inline-block;
+    transform: rotate(-6deg) ;
+    -webkit-transform: rotate(-6deg) ;
+    -moz-transform: rotate(-6deg) ;
+    -o-transform: rotate(-6deg) ;
+    -ms-transform: rotate(-6deg) ;
+}
+.getInvolvedContainer .row .group h4{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.getInvolvedContainer .row .group p{
+    margin: 20px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.getInvolvedContainer .row .group button {
+    background: none;
+    border-radius: 0px;
+    border: 1px solid #00aa9d;
+    padding: 7px 35px;
+    outline: none;
+    color: #00aa9d;
+    margin: 20px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+@media (min-width: 480px) and (max-width: 769px) {
+   
+}
+@media only screen and (max-width: 480px) {
+    .getInvolvedContainer .row{
+        margin: 0px;
+    }
+    .container-fluid{
+        padding: 0px;
+        
+    }
+}

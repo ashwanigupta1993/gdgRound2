@@ -1,0 +1,122 @@
+.aboutSection{
+    background-color: #f1f2f5; 
+}
+.aboutSection h3{
+    text-align: center;
+    margin: 25px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.aboutSection h6, .aboutSection h5{
+    text-align: center;
+    margin: 25px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.aboutSection h5{
+    font-weight: bold;
+}
+.aboutSection .row .aboutGroup{
+    background-color: white;
+    margin-top: 50px;
+    width: 28%;
+    margin-left: 4%;
+    border-radius: 5px;
+}
+
+.aboutSection .row .aboutGroup h4{
+    text-align: center;
+    color: #5fc0c3;
+    margin: 20px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.aboutSection .row .aboutGroup p{
+    text-align: center;
+    margin: 20px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.aboutSection .row .aboutGroup .iconHolder{
+    background-color: #5fc0c3;
+    width: 100px;
+    height: 100px;
+    margin: 0px auto;
+    margin-top: -50px;
+    border-radius: 50%;
+    text-align: center;
+    border: 10px solid white;
+}
+.aboutSection .row .aboutGroup .iconHolder img.like{
+    width: 50px;
+    height: 50px;
+    margin-top: 8px;
+}
+.aboutSection .row .aboutGroup .iconHolder img.shape{
+    width: 50px;
+    height: 45px;
+    margin-top: 10px;
+}
+.aboutSection .row .aboutGroup .iconHolder img.bulb{
+    width: 40px;
+    height: 55px;
+    margin-top: 8px;
+}
+.aboutSection hr{
+    border-color: #c1c1c1;
+    width: 94%;
+    margin: 50px auto;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+}
+@media (min-width: 480px) and (max-width: 769px) {
+    .aboutSection .row .aboutGroup{
+        width: 100%;
+        margin-left: 0px;
+        border-radius: 0px;
+    }
+    .aboutSection hr{
+        display: none;
+    }
+    .aboutSection .row .aboutGroup p{
+        margin: 0px;
+        padding: 20px 0px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .aboutSection .row .aboutGroup{
+        width: 100%;
+        margin-left: 0px;
+        border-radius: 0px;
+    }
+    .aboutSection hr{
+        display: none;
+    }
+    .aboutSection .row .aboutGroup p{
+        margin: 0px;
+        padding: 20px 0px;
+    }
+    .aboutSection .row .aboutGroup h4{
+        margin: 0px;
+    }
+    .aboutSection .row .aboutGroup .iconHolder{
+        width: 80px;
+        height: 80px;
+    }
+    .aboutSection .row .aboutGroup .iconHolder img.bulb{
+        width: 31px;
+        height: 41px;
+    }
+    .aboutSection .row .aboutGroup .iconHolder img.shape{
+        width: 44px;
+        height: 32px;
+        margin-top: 12px;
+    }
+    .aboutSection .row .aboutGroup .iconHolder img.like{
+        width: 39px;
+        height: 39px;
+        margin-top: 9px;
+    }
+}

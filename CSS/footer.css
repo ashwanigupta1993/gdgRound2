@@ -1,0 +1,38 @@
+footer{
+    background-color: #454850;
+    position: relative;
+}
+footer p.socialIcons{
+    text-align: center;
+    letter-spacing: 0.4em;
+    color: #5fc0c3;
+    padding: 25px 0px;
+}
+
+footer p.socialIcons a{
+    color: #5fc0c3;
+}
+footer hr{
+    border-color: #575b64;
+    position: relative;
+    width: 80%;
+    margin: 5px auto;
+}
+
+footer p.developers{
+    color: #969eb6;
+    text-align: center;
+    position: relative;
+    margin: 0px;
+    padding: 15px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer p .blueText{
+    color:#5fc0c3;
+}
+footer p .blueText:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+

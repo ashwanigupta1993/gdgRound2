@@ -1,0 +1,41 @@
+.blog{
+    padding: 0px;
+}
+.blog h3{
+    text-align: center;
+    margin: 30px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.blog .row{
+    width: 90%;
+    margin: 0px auto;
+}
+.blog .row .blueText{
+    color: #5fc0c3;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500px;
+}
+.blog .row p{
+    height: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+.blog .row .greyDate{
+    color: grey;
+    font-weight: bold;
+    margin: 25px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.blog .carousel-control{
+    width: 5%;
+}
+.carousel-control.left,.carousel-control.right{
+    background: none;
+}
+span.glyphicon.glyphicon-chevron-left,span.glyphicon.glyphicon-chevron-right {
+    color: #5fc0c3;
+   
+}
